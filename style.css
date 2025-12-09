@@ -197,6 +197,29 @@ img {
     }
 }
 
+.confetti {
+    position: absolute;
+    top: -10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: fall 5s linear infinite;
+}
+
+.cursor {
+    animation: blink 0.7s infinite;
+}
+
+@keyframes fall {
+    0% { top: -10px; transform: rotate(0deg); }
+    100% { top: 100vh; transform: rotate(720deg); }
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+
 @keyframes fadeSlideshow {
     0%, 25% { opacity: 0; }
     30%, 70% { opacity: 1; }
