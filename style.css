@@ -136,23 +136,23 @@ img {
 
 @keyframes floatBg {
     0% {
-        transform: translateY(100vh) rotate(0deg) translateX(0vw);
+        transform: translateY(100vh) translateX(0vw);
         opacity: 0.5;
     }
     25% {
-        transform: translateY(75vh) rotate(180deg) translateX(10vw);
+        transform: translateY(75vh) translateX(10vw);
         opacity: 0.5;
     }
     50% {
-        transform: translateY(50vh) rotate(360deg) translateX(20vw);
+        transform: translateY(50vh) translateX(20vw);
         opacity: 0.5;
     }
     75% {
-        transform: translateY(25vh) rotate(540deg) translateX(30vw);
+        transform: translateY(25vh) translateX(30vw);
         opacity: 0.5;
     }
     100% {
-        transform: translateY(0vh) rotate(720deg) translateX(40vw);
+        transform: translateY(0vh) translateX(40vw);
         opacity: 0.5;
     }
 }
