@@ -136,7 +136,7 @@ img {
 
 @keyframes floatBg {
     0% {
-        transform: translateY(100vh) translateX(0vw);
+        transform: translateY(100vh) translateX(5vw);
         opacity: 0.5;
     }
     25% {
@@ -144,15 +144,15 @@ img {
         opacity: 0.5;
     }
     50% {
-        transform: translateY(50vh) translateX(20vw);
+        transform: translateY(50vh) translateX(15vw);
         opacity: 0.5;
     }
     75% {
-        transform: translateY(25vh) translateX(30vw);
+        transform: translateY(25vh) translateX(20vw);
         opacity: 0.5;
     }
     100% {
-        transform: translateY(0vh) translateX(40vw);
+        transform: translateY(0vh) translateX(25vw);
         opacity: 0.5;
     }
 }
