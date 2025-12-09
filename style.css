@@ -148,11 +148,11 @@ img {
         opacity: 0.5;
     }
     75% {
-        transform: translateY(25vh) translateX(20vw);
+        transform: translateY(25vh) translateX(5vw);
         opacity: 0.5;
     }
     100% {
-        transform: translateY(0vh) translateX(25vw);
+        transform: translateY(0vh) translateX(5vw);
         opacity: 0.5;
     }
 }
