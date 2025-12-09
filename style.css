@@ -247,4 +247,18 @@ img {
     img {
         width: 100%;
     }
+
+    .background-photos .bg-photo:nth-child(1) { left: 20%; }
+    .background-photos .bg-photo:nth-child(2) { left: 60%; }
+    .background-photos .bg-photo:nth-child(3) { left: 10%; }
+    .background-photos .bg-photo:nth-child(4) { left: 70%; }
+    .background-photos .bg-photo:nth-child(5) { left: 5%; }
+    .background-photos .bg-photo:nth-child(6) { left: 50%; }
+    .background-photos .bg-photo:nth-child(7) { left: 30%; }
+    .background-photos .bg-photo:nth-child(8) { left: 80%; }
+    .background-photos .bg-photo:nth-child(9) { left: 15%; }
+    .background-photos .bg-photo:nth-child(10) { left: 55%; }
+    .background-photos .bg-photo:nth-child(11) { left: 25%; }
+    .background-photos .bg-photo:nth-child(12) { left: 45%; }
+    .background-photos .bg-photo:nth-child(13) { left: 0%; }
 }
